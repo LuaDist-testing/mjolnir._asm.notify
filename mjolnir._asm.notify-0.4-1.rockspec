@@ -10,20 +10,20 @@ package = "mjolnir._asm.notify"
 --    changing the module's source code.
 --
 --    Note: the version must match the version in the filename.
-version = "0.3-1"
+version = "0.4-1"
 
 -- General metadata:
 
-local url = "github.com/asmagill/mjolnir_asm.notify"
+local url = "github.com/asmagill/mjolnir_asm._asm"
 local desc = "Apple's built-in notifications system for Mjolnir."
 
 -- LuaDist source
 source = {
-  tag = "0.3-1",
+  tag = "0.4-1",
   url = "git://github.com/LuaDist-testing/mjolnir._asm.notify.git"
 }
 -- Original source
--- source = {url = "git://" .. url}
+-- source = {url = "git://" .. url, dir = "mjolnir_asm.asm/notify"}
 -- description = {
 --   summary = desc,
 --   detailed = desc,
